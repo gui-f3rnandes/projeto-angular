@@ -5,11 +5,12 @@ import { PipesComponent } from "./pipes/pipes.component";
 import { ApiComponent } from "./api/api.component";
 import { DbcompComponent } from "./dbcomp/dbcomp.component";
 import { CompRouteComponent } from "./comp-route/comp-route.component";
+import { TestCompComponent } from "./test-comp/test-comp.component";
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, IndexComponentComponent, PipesComponent, ApiComponent, DbcompComponent, CompRouteComponent],
+  imports: [RouterOutlet, IndexComponentComponent, PipesComponent, ApiComponent, DbcompComponent, CompRouteComponent, TestCompComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
